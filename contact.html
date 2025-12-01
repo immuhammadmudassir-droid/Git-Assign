@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Star Organic Farm</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<script>
+window.addEventListener("scroll", function() {
+  const header = document.querySelector(".header");
+  if (window.scrollY > 50) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+});
+
+ 
+</script>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="logo">
+      <img src="Logo-image.jpeg" alt="Star Organic Farm">
+    </div>
+ 
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="nav ul">
+
+        <li class="nav ul li a"><a href="home.html">Home</a></li> 
+        <li><a href="product.html"> Products</a></li>
+         <li><a href="gallery (1).html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="query.html">Query</a></li>
+        <li class="nav-item">
+        <a href="product.html#modal-add-to-cart">🛒 Cart (<span id="cart-count">0</span>)</a>
+</li>
+      </ul>
+      </div>
+      
+ </div>
+    </nav>
+  </header>
+
+ 
+
+  <!-- ===== BANNER ===== -->
+  <section class="banner">
+    <h1>Contact Star Organic Farm</h1>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <div class="container">
+    <div class="contact-wrapper">
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Email Address" required>
+          <input type="tel" placeholder="Phone Number" required>
+          <textarea rows="5" placeholder="Your Message..." required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h3>Get In Touch</h3>
+        <div><ion-icon name="location"></ion-icon><p>Star Organic Farm, Karachi, Pakistan</p></div>
+        <div><ion-icon name="call"></ion-icon><a href="tel:+923311223344">+92 331 122 3344</a></div>
+        <div><ion-icon name="mail"></ion-icon><a href="mailto:info@starorganicfarm.com">info@starorganicfarm.com</a></div>
+        <div class="social-links">
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+   <footer>
+  <div class="footer-container">
+    <div class="footer-section contact">
+      <h5>Contact Us</h5>
+      <p><strong>Phone:</strong> +92 331 122 3344</p>
+      <p><strong>Email:</strong> info@starorganicfarm.com</p>
+      <p><strong>Location:</strong> Karachi, Pakistan</p>
+    </div>
+
+    <div class="footer-section menu">
+      <h5>Menu</h5>
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Products">Products</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Query">Query</a></li>
+        <li><a href="#Contact Us">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section about">
+      <h5>About Us</h5>
+      <p>The Star Organic Farms is committed to providing high-quality organic products at competitive prices, backed by excellent customer service you can trust every time.</p>
+    </div>
+  </div>
+
+  <hr>
+  <p>© 2025 Star Organic Farm | All Rights Reserved</p>
+</footer>
+  <!-- ===== ICONS ===== -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
